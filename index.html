@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOPORTE TÉCNICO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<main class="container-login-gerti">
+    <div class="container-login">
+        <h2 class="title-lg">GENERAR INCIDENCIA!</h2>
+        <p class="pr">USUARIO</p>
+        <form method="post" class="form-login" autocomplete="off">
+            <div class="cont-inp">
+                <input type="text" class="inp" id="inp-o" required placeholder="Documento de identidad (DNI)">
+                <div class="check"></div>
+            </div>
+            <div class="cont-inp">
+                <input type="text" class="inp" id="inp-t" required placeholder="Teléfono / Cel.">
+                <div class="check chk-t"></div>
+            </div>
+            <div class="cont-descrip">
+                <p class="pr">OFICINA</p>
+            <div class="cont-inp">
+                <select name="tipo-incidencia" class="inp selects">
+                    <option value="ninguno">- Ninguno -</option>
+                    <option value="hola">hola</option>
+                </select>
+            </div>
+                <p class="pr">TIPO DE INICIDENCIA</p>
+            <div class="cont-inp">
+                <select name="tipo-incidencia" class="inp selects">
+                    <option value="ninguno">- Ninguno -</option>
+                </select>
+            </div>
+                <textarea name="description" id="description" rows="5"  placeholder="Descripción (OPCIONAL)"></textarea>
+                <button class="btn-e" type="submit">ENVIAR</button>
+                <hr>
+            </div>
+            <button class="btn-i">Intranet</button>
+        </form>
+    </div>
+    <footer class="foot-pag">
+        <h1 class="title-ft">|GERTI</h1>
+        <p>&copy;Gerencia Regional de Tecnología de la Información.</p>
+    </footer>
+</main>
+<script src="./Validate.js"></script>
+<script src="./chat.js"></script>
+</body>
+</html>
